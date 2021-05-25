@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock paper Scissor</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<header>
+  <h1 id="heading1">Rock Paper Scissor</h1>
+</header>
+
+<body class="background">
+  <table id="tie">
+    <thead>
+      <tr>
+        <th class="title" scope="col">Tie Cases</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="tieno">0</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="body">
+    <div id="main">
+      <table id="table">
+        <thead>
+          <tr>
+            <th class="title" scope="col">Computer</th>
+            <th class="title" scope="col">Me</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="computer">0</td>
+            <td id="me">0</td>
+          </tr>
+        </tbody>
+      </table>
+      <img id="rock" src="img/rock.png" alt="rock" onclick="{rockChoice()}" />
+      <img id="paper" src="img/paper.png" alt="paper" onclick="{paperChoice()}" />
+      <img id="scissor" src="img/scissor.png" alt="scissor" onclick="{scissorChoice()}" />
+    </div>
+  </div>
+  <h3 id="heading3"></h3>
+  <h3 id="heading4"></h3>
+</body>
+<script src="/js/index.js"></script>
+
+</html>

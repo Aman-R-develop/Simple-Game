@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#rock {
+  border: 2px solid black;
+  border-radius: 103px;
+  margin-left: 12px;
+  margin-top: 40px;
+  margin-right: 20%;
+}
+
+#paper {
+  border: 2px solid black;
+  border-radius: 103px;
+  margin-left: 12px;
+  margin-top: 40px;
+  margin-right: 14%;
+}
+
+#scissor {
+  border: 2px solid black;
+  border-radius: 103px;
+  margin-left: 12px;
+  margin-top: 40px;
+  margin-right: 9%;
+}
+
+#heading1 {
+  margin-left: 37%;
+  font-family: "Pattaya", sans-serif;
+  text-decoration: underline;
+}
+
+.background {
+  background: url(../img/bg.jpg);
+  height: 100vh;
+  background-repeat: round;
+}
+
+#table {
+  border: 2px solid black;
+  margin-left: 80%;
+  margin-top: -120px;
+}
+
+.title {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 17px;
+  font-family: "Pattaya", sans-serif;
+  font-size: 30px;
+}
+
+#computer {
+  font-family: "Pattaya", sans-serif;
+  border-right: 2px solid black;
+  font-size: 30px;
+}
+#me {
+  font-family: "Pattaya", sans-serif;
+  border-right: 2px solid black;
+  font-size: 30px;
+}
+
+#heading3{
+  font-family: "Pattaya", sans-serif;
+  margin: 27px;
+  margin-left: 20%;
+  font-size: 46px;
+}
+
+#heading4{
+  font-family: "Pattaya", sans-serif;
+  margin: 27px;
+  margin-left: 42%;
+  font-size: 46px;
+}
+
+.footer{
+  background: linear-gradient(cyan,yellow,red);
+  margin-left: 40%;
+  font-family: "Pattaya", sans-serif;
+  font-size: 30px;
+  margin-top: 11%;
+  margin-right: 40%;
+}
+
+#tie{
+  border: 2px solid black;
+  margin-left: 7px;
+}
+
+#tieno{
+  font-family: "Pattaya", sans-serif;
+  border-right: 2px solid black;
+  font-size: 30px;
+}
